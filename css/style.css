@@ -1,42 +1,70 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
  body {
      background-color: #eee;
-     /**/
+
  }
 
- .dv {
 
-     overflow: hidden;
-     text-overflow: hidden;
+ .container {
+     width: 80%;
+     margin: auto;
+
  }
 
- @media screen and (max-width:400px) {
-     .dv {
+ @media screen and (max-width:360px) {
+     .container {
          background-color: rgb(251, 0, 0);
          color: white;
+         padding: 0 .5rem;
 
      }
  }
 
- @media screen and (min-width:401px) and (max-width:768px) {
-     .dv {
+ @media screen and (min-width:361px) and (max-width:768px) {
+     .container {
          background-color: rgb(134, 251, 0);
          color: rgb(0, 0, 0);
+         padding: 0 .5rem;
+
 
      }
  }
 
  @media screen and (min-width:769px) and (max-width:800px) {
-     .dv {
+     .container {
          color: white;
          background-color: rgb(245, 246, 250);
+         padding: 0 1rem;
+
+
      }
  }
 
  @media screen and (min-width:801px) and (max-width:1600px) {
-     .dv {
+     .container {
          background-color: rgb(192, 19, 178);
          color: rgb(255, 255, 255);
+         padding: 0 2rem;
 
 
      }
+ }
+
+ .p {
+     text-align: center;
  }
